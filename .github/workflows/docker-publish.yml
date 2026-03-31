@@ -11,7 +11,7 @@ env:
   # Docker Hub Registry
   REGISTRY: docker.io
   # 镜像名称，格式 username/repo
-  IMAGE_NAME: your-dockerhub-username/${{ github.repository }}
+  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/codex-console
 
 jobs:
   build-and-push-image:
