@@ -3,7 +3,7 @@ name: Docker Image CI
 on:
   push:
     branches: [ "master", "main" ]
-    # 当发布新版本时触发
+    # 当发布新版本时触发1
     tags: [ 'v*.*.*' ]
   pull_request:
     branches: [ "master", "main" ]
